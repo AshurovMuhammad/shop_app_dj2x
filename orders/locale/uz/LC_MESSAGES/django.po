@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-19 14:15+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\orders\models.py:11
+msgid "ism"
+msgstr ""
+
+#: .\orders\models.py:12
+msgid "familiya"
+msgstr ""
+
+#: .\orders\models.py:13
+msgid "e-mail"
+msgstr ""
+
+#: .\orders\models.py:14
+msgid "manzil"
+msgstr ""
+
+#: .\orders\models.py:15
+msgid "pochta raqam"
+msgstr ""
+
+#: .\orders\models.py:16
+msgid "shaxar"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:10
+#: .\orders\templates\admin\orders\order\detail.html:17
+#: .\orders\templates\admin\orders\order\detail.html:23
+msgid "Buyurtma"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:15
+msgid "Bosh sahifa"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:16
+msgid "Buyurtmalar"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:18
+msgid "Batafsil"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:26
+msgid "Chop etish tartibi"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:31
+msgid "Yaratildi"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:35
+msgid "Mijoz"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:39
+msgid "E-mail"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:43
+msgid "Manzil"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:47
+msgid "Umumiy miqdor"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:51
+msgid "Holati"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:52
+msgid "To'langan"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:52
+msgid "Toʻlov kutilmoqda"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:59
+msgid "Sotib olingan mahsulotlar"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:62
+msgid "Mahsulot"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:63
+msgid "Narxi"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:64
+msgid "Miqdori"
+msgstr ""
+
+#: .\orders\templates\admin\orders\order\detail.html:65
+#: .\orders\templates\admin\orders\order\detail.html:78
+#: .\orders\templates\orders\order\create.html:27
+msgid "Jami"
+msgstr ""
+
+#: .\orders\templates\orders\order\create.html:5
+#: .\orders\templates\orders\order\create.html:9
+msgid "Hisob-kitoblar"
+msgstr ""
+
+#: .\orders\templates\orders\order\create.html:11
+msgid "Buyurtmangiz"
+msgstr ""
+
+#: .\orders\templates\orders\order\create.html:20
+#, python-format
+msgid ""
+"\n"
+"                \"%(code)s\" (%(discount)s%% off)\n"
+"              "
+msgstr ""
+
+#: .\orders\templates\orders\order\create.html:31
+msgid "Buyurtma berish"
+msgstr ""
+
+#: .\orders\templates\orders\order\created.html:5
+#: .\orders\templates\orders\order\created.html:10
+msgid "Raxmat"
+msgstr ""
+
+#: .\orders\templates\orders\order\created.html:11
+msgid "Buyurtmangiz muvaffaqiyatli bajarildi. Buyurtma raqamingiz"
+msgstr ""

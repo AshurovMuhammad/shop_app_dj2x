@@ -1,5 +1,6 @@
 {% extends "shop/base.html" %}
 {% load static %}
+{% load i18n %}
 
 {% block title %}
     {{ product.name }}
@@ -13,11 +14,11 @@
         <h2>
             <a href="{{ product.category.get_absolute_url }}">{{ product.category }}</a>
         </h2>
-        <p class="price">{{ product.price }} so'm</p>
+        <p class="price">${{ product.price }}</p>
             <form action="{% url 'cart:cart_add' product.id %}" method="post">
                 {{ cart_product_form }}
                 {% csrf_token %}
-                <input type="submit" value="Add to cart">
+                <input type="submit" value="{% trans 'Savatga solish' %}">
             </form>
         {{ product.description|linebreaks }}
     </div>

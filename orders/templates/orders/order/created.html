@@ -1,11 +1,13 @@
 {% extends 'shop/base.html' %}
+{% load i18n %}
+
 {% block title %}
-  Thank you
+  {% trans 'Raxmat' %}
 {% endblock %}
 
 
 {% block content %}
-  <h1>Thank you</h1>
-  <p>Your order has been successfully completed. Your order number is
+  <h1>{% trans 'Raxmat' %}</h1>
+  <p>{% trans 'Buyurtmangiz muvaffaqiyatli bajarildi. Buyurtma raqamingiz' %}
   <strong>{{ order.id }}</strong>.</p>
 {% endblock %}

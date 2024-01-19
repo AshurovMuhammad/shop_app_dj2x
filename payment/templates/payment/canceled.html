@@ -1,6 +1,7 @@
 {% extends "shop\base.html" %}
+{% load i18n %}
 
 {% block content %}
-    <h1>Your payment has not been processed</h1>
-    <p>There was a problem processing your payment.</p>
+    <h1>{% trans "Toʻlovingiz amalga oshirilmadi." %}</h1>
+    <p>{% trans "Toʻlovingizni qayta ishlashda muammo yuz berdi." %}</p>
 {% endblock %}
