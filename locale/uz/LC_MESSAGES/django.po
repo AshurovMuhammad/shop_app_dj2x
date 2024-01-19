@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-19 14:06+0300\n"
+"POT-Creation-Date: 2024-01-19 15:12+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\cart\forms.py:11 .\cart\templates\cart\detail.html:14
+msgid "Miqdori"
+msgstr ""
 
 #: .\cart\templates\cart\detail.html:5 .\cart\templates\cart\detail.html:8
 msgid "Savatingiz"
@@ -28,10 +32,6 @@ msgstr ""
 
 #: .\cart\templates\cart\detail.html:13
 msgid "Mahsulot"
-msgstr ""
-
-#: .\cart\templates\cart\detail.html:14
-msgid "Miqdori"
 msgstr ""
 
 #: .\cart\templates\cart\detail.html:15 .\cart\templates\cart\detail.html:38
@@ -47,47 +47,71 @@ msgid "Narxi"
 msgstr ""
 
 #: .\cart\templates\cart\detail.html:35
-msgid "Update"
+msgid "Yangilash"
 msgstr ""
 
 #: .\cart\templates\cart\detail.html:46
 msgid "Oraliq summa"
 msgstr ""
 
-#: .\cart\templates\cart\detail.html:52
+#: .\cart\templates\cart\detail.html:51
 #, python-format
 msgid ""
 "\n"
-"                <td>\"%(code)s\" coupon (%(discount)s%% off)</td>\n"
-"                "
+"                <td>\"%(code)s\" kupon (%(discount)s%% off)</td>\n"
+"            "
 msgstr ""
 
-#: .\cart\templates\cart\detail.html:63
+#: .\cart\templates\cart\detail.html:61
 msgid "Jami"
 msgstr ""
 
-#: .\cart\templates\cart\detail.html:69
+#: .\cart\templates\cart\detail.html:67
 msgid "Kuponni qo'llash"
 msgstr ""
 
-#: .\cart\templates\cart\detail.html:72
+#: .\cart\templates\cart\detail.html:70
 msgid "Yuborish"
 msgstr ""
 
-#: .\cart\templates\cart\detail.html:76
-msgid "Continue shopping"
+#: .\cart\templates\cart\detail.html:74
+msgid "Xaridni davom ettiring"
 msgstr ""
 
-#: .\cart\templates\cart\detail.html:77
-msgid "Checkout"
-msgstr ""
-
-#: .\config\settings.py:110
-msgid "Uzbek"
+#: .\cart\templates\cart\detail.html:75
+msgid "Hisob-kitoblar"
 msgstr ""
 
 #: .\config\settings.py:111
+msgid "Uzbek"
+msgstr ""
+
+#: .\config\settings.py:112
 msgid "Russian"
+msgstr ""
+
+#: .\config\urls.py:25
+msgid "admin/"
+msgstr ""
+
+#: .\config\urls.py:26
+msgid "cart/"
+msgstr ""
+
+#: .\config\urls.py:27
+msgid "orders/"
+msgstr ""
+
+#: .\config\urls.py:28
+msgid "payment/"
+msgstr ""
+
+#: .\config\urls.py:29
+msgid "coupons/"
+msgstr ""
+
+#: .\coupons\forms.py:6
+msgid "Kupon"
 msgstr ""
 
 #: .\payment\templates\payment\canceled.html:5
@@ -123,6 +147,18 @@ msgstr ""
 msgid "Tolash"
 msgstr ""
 
+#: .\payment\urls.py:8
+msgid "process/"
+msgstr ""
+
+#: .\payment\urls.py:9
+msgid "done/"
+msgstr ""
+
+#: .\payment\urls.py:10
+msgid "canceled/"
+msgstr ""
+
 #: .\shop\templates\shop\base.html:7 .\shop\templates\shop\base.html:12
 msgid "My shop"
 msgstr ""
@@ -139,7 +175,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                %(total_items)s item%(total_items_plural)s,\n"
+"                %(total_items)s element%(total_items_plural)s,\n"
 "                $%(total_price)s\n"
 "              "
 msgstr ""
@@ -153,7 +189,7 @@ msgid "Savatga solish"
 msgstr ""
 
 #: .\shop\templates\shop\product\list.html:6
-msgid "Products"
+msgid "Maxsulotlar"
 msgstr ""
 
 #: .\shop\templates\shop\product\list.html:11

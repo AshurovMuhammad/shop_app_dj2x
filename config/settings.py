@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
     'coupons.apps.CouponsConfig',
+    'rosetta',
 ]
 
 MIDDLEWARE = [
@@ -111,7 +112,7 @@ LANGUAGES = (
     ('ru', _('Russian')),
 )
 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'uz'
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale/'),
@@ -153,3 +154,15 @@ Configuration.configure(
     BRAINTREE_PUBLIC_KEY,
     BRAINTREE_PRIVATE_KEY
 )
+
+# django-parler
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'uz'},
+        {'code': 'ru'},
+    ),
+    'default': {
+        'fallback': 'uz',
+        'hide_untranslated': False,
+    }
+}

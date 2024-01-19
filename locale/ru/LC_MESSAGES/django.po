@@ -8,167 +8,218 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-19 14:06+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-01-19 15:12+0300\n"
+"PO-Revision-Date: 2024-01-19 15:17+0000\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\cart\forms.py:11 .\cart\templates\cart\detail.html:14
+msgid "Miqdori"
+msgstr "Количество"
 
 #: .\cart\templates\cart\detail.html:5 .\cart\templates\cart\detail.html:8
 msgid "Savatingiz"
-msgstr ""
+msgstr "Ваша Корзина"
 
 #: .\cart\templates\cart\detail.html:12
 msgid "Rasm"
-msgstr ""
+msgstr "Картина"
 
 #: .\cart\templates\cart\detail.html:13
 msgid "Mahsulot"
-msgstr ""
-
-#: .\cart\templates\cart\detail.html:14
-msgid "Miqdori"
-msgstr ""
+msgstr "Продукт"
 
 #: .\cart\templates\cart\detail.html:15 .\cart\templates\cart\detail.html:38
 msgid "O'chirish"
-msgstr ""
+msgstr "Удалять"
 
 #: .\cart\templates\cart\detail.html:16
 msgid "Donasining narxi"
-msgstr ""
+msgstr "Цена за штуку"
 
 #: .\cart\templates\cart\detail.html:17
 msgid "Narxi"
-msgstr ""
+msgstr "Цена"
 
 #: .\cart\templates\cart\detail.html:35
-msgid "Update"
-msgstr ""
+msgid "Yangilash"
+msgstr "Обновить"
 
 #: .\cart\templates\cart\detail.html:46
 msgid "Oraliq summa"
-msgstr ""
+msgstr "Промежуточный итог"
 
-#: .\cart\templates\cart\detail.html:52
-#, python-format
+#: .\cart\templates\cart\detail.html:51
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "                <td>\"%(code)s\" coupon (%(discount)s%% off)</td>\n"
+#| "                "
 msgid ""
 "\n"
-"                <td>\"%(code)s\" coupon (%(discount)s%% off)</td>\n"
-"                "
+"                <td>\"%(code)s\" kupon (%(discount)s%% off)</td>\n"
+"            "
 msgstr ""
+"\n"
+"<td>\"%(code)s\" купон(%(discount)s%% off)</td>"
 
-#: .\cart\templates\cart\detail.html:63
+#: .\cart\templates\cart\detail.html:61
 msgid "Jami"
-msgstr ""
+msgstr "Всего"
 
-#: .\cart\templates\cart\detail.html:69
+#: .\cart\templates\cart\detail.html:67
 msgid "Kuponni qo'llash"
-msgstr ""
+msgstr "Применить купон"
 
-#: .\cart\templates\cart\detail.html:72
+#: .\cart\templates\cart\detail.html:70
 msgid "Yuborish"
-msgstr ""
+msgstr "Применить"
 
-#: .\cart\templates\cart\detail.html:76
-msgid "Continue shopping"
-msgstr ""
+#: .\cart\templates\cart\detail.html:74
+msgid "Xaridni davom ettiring"
+msgstr "Продолжить покупки"
 
-#: .\cart\templates\cart\detail.html:77
-msgid "Checkout"
-msgstr ""
+#: .\cart\templates\cart\detail.html:75
+msgid "Hisob-kitoblar"
+msgstr "Оформить заказ"
 
-#: .\config\settings.py:110
+#: .\config\settings.py:111
 msgid "Uzbek"
 msgstr "Узбекский"
 
-#: .\config\settings.py:111
+#: .\config\settings.py:112
 msgid "Russian"
 msgstr "Русский"
 
+#: .\config\urls.py:25
+msgid "admin/"
+msgstr ""
+
+#: .\config\urls.py:26
+msgid "cart/"
+msgstr ""
+
+#: .\config\urls.py:27
+msgid "orders/"
+msgstr ""
+
+#: .\config\urls.py:28
+msgid "payment/"
+msgstr ""
+
+#: .\config\urls.py:29
+msgid "coupons/"
+msgstr ""
+
+#: .\coupons\forms.py:6
+msgid "Kupon"
+msgstr "Купон"
+
 #: .\payment\templates\payment\canceled.html:5
 msgid "Toʻlovingiz amalga oshirilmadi."
-msgstr ""
+msgstr "Ваш платеж не прошел."
 
 #: .\payment\templates\payment\canceled.html:6
 msgid "Toʻlovingizni qayta ishlashda muammo yuz berdi."
-msgstr ""
+msgstr "Возникла проблема с обработкой вашего платежа."
 
 #: .\payment\templates\payment\done.html:5
 msgid "To‘lovingiz muvaffaqiyatli amalga oshirildi."
-msgstr ""
+msgstr "Ваш платеж был успешно произведен."
 
 #: .\payment\templates\payment\done.html:6
 msgid "Toʻlovingiz muvaffaqiyatli amalga oshirildi."
-msgstr ""
+msgstr "Ваш платеж обработан успешно."
 
 #: .\payment\templates\payment\process.html:4
 #: .\payment\templates\payment\process.html:8
 msgid "Kredit karta orqali to'lov"
-msgstr ""
+msgstr "Оплата с помощью кредитной карты"
 
 #: .\payment\templates\payment\process.html:10
 msgid "Karta raqam"
-msgstr ""
+msgstr "Номер карты"
 
 #: .\payment\templates\payment\process.html:16
 msgid "Amal qilish sanasi"
-msgstr ""
+msgstr "Дата действия"
 
 #: .\payment\templates\payment\process.html:21
 msgid "Tolash"
+msgstr "Платить"
+
+#: .\payment\urls.py:8
+msgid "process/"
+msgstr ""
+
+#: .\payment\urls.py:9
+msgid "done/"
+msgstr ""
+
+#: .\payment\urls.py:10
+msgid "canceled/"
 msgstr ""
 
 #: .\shop\templates\shop\base.html:7 .\shop\templates\shop\base.html:12
 msgid "My shop"
-msgstr ""
+msgstr "Мой магазин"
 
 #: .\shop\templates\shop\base.html:17
 msgid "Til"
-msgstr ""
+msgstr "Язык"
 
 #: .\shop\templates\shop\base.html:33
 msgid "Your cart"
-msgstr ""
+msgstr "Ваша корзина"
 
 #: .\shop\templates\shop\base.html:35
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "                %(total_items)s item%(total_items_plural)s,\n"
+#| "                $%(total_price)s\n"
+#| "              "
 msgid ""
 "\n"
-"                %(total_items)s item%(total_items_plural)s,\n"
+"                %(total_items)s element%(total_items_plural)s,\n"
 "                $%(total_price)s\n"
 "              "
 msgstr ""
+"\n"
+"%(total_items)s элемент%(total_items_plural)s,\n"
+"$%(total_price)s"
 
 #: .\shop\templates\shop\base.html:41
 msgid "Savatingiz boʻsh."
-msgstr ""
+msgstr "Ваша корзина пуста."
 
 #: .\shop\templates\shop\product\detail.html:21
 msgid "Savatga solish"
-msgstr ""
+msgstr "Добавить в корзину"
 
 #: .\shop\templates\shop\product\list.html:6
-msgid "Products"
-msgstr ""
+#, fuzzy
+#| msgid "Mahsulotlar"
+msgid "Maxsulotlar"
+msgstr "Продукты"
 
 #: .\shop\templates\shop\product\list.html:11
 msgid "Kategoriyalar "
-msgstr ""
+msgstr "Категории"
 
 #: .\shop\templates\shop\product\list.html:14
 msgid "Hammasi"
-msgstr ""
+msgstr "Всё"
 
 #: .\shop\templates\shop\product\list.html:24
 msgid "Mahsulotlar"
-msgstr ""
+msgstr "Продукты"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
 msgid "Messages"
@@ -229,8 +280,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:264
 msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
+" hyphens."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:276
@@ -430,15 +481,15 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
@@ -457,8 +508,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1791
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1795
@@ -617,7 +668,8 @@ msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the label
+#. characters will prevent the default label_suffix to be appended to the
+#. label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:184
 msgid ":?.!"
 msgstr ""
@@ -667,7 +719,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:622
 #, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
@@ -775,7 +828,8 @@ msgid "The inline value did not match the parent instance."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1429
-msgid "Select a valid choice. That choice is not one of the available choices."
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1568
@@ -1235,11 +1289,11 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:127
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
+" including the “Referrer-Policy: no-referrer” header, please remove them. "
+"The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:136
@@ -1290,8 +1344,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:692
@@ -1347,10 +1401,10 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
 #, python-format
 msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
+"You are seeing this page because <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
+"and you have not configured any URLs."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
@@ -1391,3 +1445,15 @@ msgstr ""
 #, python-format
 msgid "Unable to connect to qpid with SASL mechanism %s"
 msgstr ""
+
+#~ msgid "Update"
+#~ msgstr "Обновлять"
+
+#~ msgid "Continue shopping"
+#~ msgstr "Продолжить покупки"
+
+#~ msgid "Checkout"
+#~ msgstr "Оформить заказ"
+
+#~ msgid "Products"
+#~ msgstr "Продукты"
